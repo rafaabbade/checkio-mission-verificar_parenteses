@@ -1,16 +1,14 @@
-def sum_two(a, b):
-    """
-        sums two passed arguments
-    """
+def count_consecutive_summers(a):
     # your code here
     return None
 
 
 if __name__ == '__main__':
     print("Example:")
-    print(sum_two(3, 2))
-    
+    print(count_consecutive_summers(42))
+
     # These "asserts" are used for self-checking and not for an auto-testing
-    assert sum_two(3, 2) == 5, "First"
-    assert sum_two(5, 7) == 12, "Second"
+    assert count_consecutive_summers(42) == 4
+    assert count_consecutive_summers(99) == 6
+    assert count_consecutive_summers(1) == 1
     print("Coding complete? Click 'Check' to earn cool rewards!")
