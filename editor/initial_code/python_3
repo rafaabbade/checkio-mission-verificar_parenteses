@@ -1,4 +1,4 @@
-def count_consecutive_summers(a):
+def count_consecutive_summers(num):
     # your code here
     return None
 

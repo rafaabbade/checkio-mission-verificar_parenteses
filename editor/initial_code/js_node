@@ -1,6 +1,6 @@
 "use strict";
 
-function countConsecutiveSummers(a) {
+function countConsecutiveSummers(num) {
 
     // your code here
     return 0;
