@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "count_consecutive_summers",
+            "python": "{{FUNC}}",
             "js": "countConsecutiveSummers"
         },
         cover_code={
