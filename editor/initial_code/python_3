@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def verificar_parenteses(expressao):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(verificar_parenteses("(a + b) * (c + d)"))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert verificar_parenteses("(a + b) * (c + d)") == True
+assert verificar_parenteses("(a + b * (c + d)") == False
+assert verificar_parenteses("((()))") == True
+assert verificar_parenteses(")(") == False
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
