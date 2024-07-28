@@ -10,7 +10,7 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        [
+        
     {
         "input": ["(a + b) * (c + d)"],
         "answer": True
@@ -27,6 +27,6 @@ TESTS = {
         "input": [")("],
         "answer": False
     }
-]
+
     ]
 }
